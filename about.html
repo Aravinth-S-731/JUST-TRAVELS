@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>JUST TRAVEL</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/432d911a8f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"  onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="explore.html">EXPLORE</a></li>
+                        <li><a href="">ACCOUNT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>ABOUT US</h1>
+        <section>
+
+<!---ABOUT-US CONTENT--->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>THE BEST WEBSITE TO FIND THE BEST IN CLASS HOTELS</h1>
+            <p>JUST TRAVEL private limited is a travel and accomodation company which helps you to find the best in class accomodation near you, Also JUST TRAVEL has lot of services like taxi / cab which picks you at your door step. JUST TRAVEL introduced food delivery services where you can taste exotic food around the world and also we takes care of your abroad travel within your budget. We provide valet parking, 24/7 bar facility, free food upto three persons per day. JUST TRAVEL give you a hazel free booking of your services.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE US</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/about/about_img.jpg">
+        </div>
+    </div>
+</section>
+
+<!---Footer--->
+
+<section class="footer1">
+    <p>JUST TRAVEL private limited is a travel booking and consultancy company.</p>
+    <div class="icons">
+        <i class="fa fa-google"></i>
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>MADE BY <i class="fa fa-instagram"></i> ARVIND.S.731</p>
+</section>
+
+<!---java script-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

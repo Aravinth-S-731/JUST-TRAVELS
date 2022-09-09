@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>JUST TRAVEL</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/432d911a8f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="sub3-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"  onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="explore.html">EXPLORE</a></li>
+                        <li><a href="">ACCOUNT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>CONTACT US</h1>
+        <section>
+
+<!----location--->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126179.21636271877!2d78.14601744999999!3d8.776613800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b03ee67b4ad764f%3A0x2443e6dc90ee7d3!2sThoothukudi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1660037597889!5m2!1sen!2sin" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<!---Contact info--->
+
+<section class="contact-us">
+    <div class="row4">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>No. 05 , Star-Building, XYZ Street,</h5>
+                    <p>Thoothukudi, Tamilnadu, India</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>(+91) 78718 67225</h5>
+                    <p>OPEN 24/7</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>aravinth7871867225gmail.com</h5>
+                    <p>E-Mail us for any querys</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="ENTER YOUR NAME" required>
+                    <input type="email" name="email" placeholder="ENTER YOUR E-Mail" required>
+                    <input type="text" name="subject" placeholder="ENTER YOUR SUBJECT" required>
+                    <textarea rows="8" name="message" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">send message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---Footer--->
+
+<section class="footer1">
+    <p>JUST TRAVEL private limited is a travel booking and consultancy company.</p>
+    <div class="icons">
+        <i class="fa fa-google"></i>
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>MADE BY <i class="fa fa-instagram"></i> ARVIND.S.731</p>
+</section>
+
+<!---java script-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
